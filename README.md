@@ -1,8 +1,8 @@
 # Coding_Exercise_OTB
 # Java Attempt 6th July 2015
 
-#To follow will be an attempt to solve the problem in Java programming language. When I first thought of using Java the
-#first thing that sprang to my mind was that I would need to use arrays some how. I would need the program to follow 
+To follow will be an attempt to solve the problem in Java programming language. When I first thought of using Java the
+first thing that sprang to my mind was that I would need to use arrays some how. I would need the program to follow 
 sets of rules, and some kind of order. My first step is to do some more research on arrays and sorting the data held in
 arrays and also dependencies.
 
