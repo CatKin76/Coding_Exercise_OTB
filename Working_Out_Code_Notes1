@@ -1,0 +1,66 @@
+# Trying to work out how to get arrays to work with printing strings from jobs and dependencies and how
+# to get them to work together also
+#At this stage all commented code is just showing my thought processes at this point
+# I want a user to be able to input a job or jobs and get them printed out with relevant dependencies or none at all
+# or if a user inputs nothing - then nothing to be printed maybe apart from a simple message
+
+package coding_exercise_OTB;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Scanner;
+
+public class Jobs_challenge {
+
+	//private static Scanner input;
+
+	public static void main(String[] args) {
+
+		
+		String[] job = new String [6]; //{ "a", "b", "c", "d", "e", "f" };
+		
+		job[0] = "a";
+		job[1] = "b";
+		job[2] = "c";
+		job[3] = "d";
+		job[4] = "e";
+		job[5] = "f";
+		
+	//	System.out.println(job[5]);
+		
+		String [] depend = new String [6];
+		
+		depend[0] = "a";
+		depend[1] = "b";
+		depend[2] = "c";
+		depend[3] = "d";
+		depend[4] = "e";
+		depend[5] = "f";
+		
+		System.out.println(job [5] + " => " + depend[4]);
+
+	}
+}
+
+		/*//String[] dependencies = new String[] { "a", "b", "c", "d", "e", "f" };
+
+		Scanner input = new Scanner(System.in);
+		System.out.println("Please enter job character a,b,c,d,e or f:");
+		String in = input.nextLine();
+
+		if (input.next() == null) { 
+			System.out.println("This is an empty sequence"); 
+		}
+		else{
+			if (input.next() != null)
+			System.out.println(job);
+		}
+	}
+}*/
+
+# The above code at this moment will print out a job with a dependency of choice
+# no user input as yet
+
+# I think I'm on the right track here but a lot of work to be done to get the user input involved
+# and also to get the correct dependencies working alongside the jobs that depend on them.
