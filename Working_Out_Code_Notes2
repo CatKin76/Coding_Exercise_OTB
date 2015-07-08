@@ -1,0 +1,61 @@
+#So firstly here i have worked out how in java to print the initial string of jobs
+#not a simple task in Java
+
+public class Jobs_challenge {
+
+	//private static Scanner input;
+
+	public static void main(String[] args) {
+
+		String[] job = new String [6]; 
+		
+		job[0] = "\n a " + " => ";
+		job[1] = "\n b " + " => ";
+		job[2] = "\n c " + " => ";
+		job[3] = "\n d " + " => ";
+		job[4] = "\n e " + " => ";
+		job[5] = "\n f " + " => ";
+		
+		int len = job.length;
+		System.out.println("There are " + len + " jobs in array. They are:- " + 
+		Arrays.deepToString(job).replace(",", " ").replace("[", " ").replace("]", " "));
+			
+		String [] depend = new String [6];
+		
+		depend[0] = "a";
+		depend[1] = "b";
+		depend[2] = "c";
+		depend[3] = "d";
+		depend[4] = "e";
+		depend[5] = "f";
+	}
+}
+	//	System.out.println(job [2] + " => " + depend[2]);
+		
+		/*Scanner input = new Scanner(System.in);
+		System.out.println("Please enter job character/s between 'a' and 'f':- ");
+
+		if (input.nextLine() == null) { 
+			System.out.println("This is an empty sequence"); 
+		}
+		else{
+			if (input.nextLine() == "abc")
+			System.out.println(job[2] + job[1] + job[0] + " => " + "Has no dependency at present");
+		}
+	}
+}*/
+
+OUTPUT:
+
+There are 6 jobs in array. They are:-  
+ a  =>   
+ b  =>   
+ c  =>   
+ d  =>   
+ e  =>   
+ f  =>  
+ 
+ #now we have the ability to print the string of jobs
+ we now need to set up a scannerthat accepts a given command like in the, if no jobs jobs are inputted, then 
+ # it should ouput an empty sequence. Or if just job structure a is entered than that should output just that job....ect....
+ # jobs should be able to be easily outputted on their own, but it will be more tricky when dependencies need to be added
